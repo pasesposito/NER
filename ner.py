@@ -23,7 +23,7 @@ def load_hf_model():
 # -----------------------
 # Namespace Ontologia
 # -----------------------
-SHE = Namespace("http://example.org/she#")
+SHE = Namespace("http://she.org/she#")
 
 # Mapping etichette NER -> Classi OWL
 def map_entity_label(label: str) -> URIRef:
