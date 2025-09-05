@@ -9,13 +9,6 @@ import os
 
 from spacy.cli import download
 
-def load_spacy_model():
-    try:
-        return spacy.load("en_core_web_sm")
-    except OSError:
-        download("en_core_web_sm")
-        return spacy.load("en_core_web_sm")
-
 # -----------------------
 # Caricamento modelli
 # -----------------------
