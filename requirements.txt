@@ -1,0 +1,7 @@
+streamlit
+spacy
+transformers
+torch
+rdflib
+networkx
+pyvis
