@@ -131,7 +131,7 @@ def show_graph(g: Graph):
 # -----------------------
 # Interfaccia Streamlit
 # -----------------------
-st.title("🔎 NER → Ontology Graph (OWL/Turtle + Visualizzazione)")
+st.title("🔎 NER and Ontology Graph")
 st.write("Riconosci entità in un testo, genera un grafo RDF/OWL e visualizzalo con colori per tipo di entità.")
 
 model_choice = st.radio("Seleziona il modello:", ("spaCy", "Hugging Face Transformers"))
